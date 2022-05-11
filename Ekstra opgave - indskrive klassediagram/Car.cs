@@ -16,11 +16,11 @@ namespace Ekstra_opgave___indskrive_klassediagram
         GearBox GearBox = new GearBox();
 
         private string registrationNumber;
-
+         
         public string RegistrationNumber
         {
             get { return registrationNumber; }
-            set { registrationNumber = value; }
+            set { registrationNumber = value; } 
         }
 
         private string registrationYear;
